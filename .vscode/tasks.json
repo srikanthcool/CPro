@@ -9,7 +9,6 @@
       "command": "/usr/bin/clang++",
       "args": [
         "-std=c++17",
-        
         "-stdlib=libc++",
         "-g",
         "${file}",
@@ -22,10 +21,29 @@
       "problemMatcher": [
         "$gcc"
       ],
+      "group": "build"
+    },
+    {
+      "type": "cppbuild",
+      "label": "C/C++: clang build active file",
+      "command": "/usr/bin/clang",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
       "group": {
         "kind": "build",
         "isDefault": true
-      }
+      },
+      "detail": "compiler: /usr/bin/clang"
     }
   ]
 }
