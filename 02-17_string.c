@@ -2,7 +2,7 @@
 
 int main()
 {
-	char password[] = "spatula";
+	char password[] = "spatula \t \nTest \n ";
 
 	printf("The password is %s\n",password);
 

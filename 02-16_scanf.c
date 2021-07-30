@@ -2,11 +2,11 @@
 
 int main()
 {
-	int x;
+	char x;
 
-	printf("Type an integer: ");
-	scanf("%d",&x);
-	printf("Integer %d\n",x);
+	printf("Type an char: ");
+	scanf("%c",&x);
+	printf("charecter %c\n",x);
 
 	return(0);
 }

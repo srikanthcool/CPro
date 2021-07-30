@@ -10,6 +10,12 @@ int main()
 
 	printf("It's as easy as %c%c%c\n",x,y,z);
 
+	x = 'I';
+	y = 'N';
+	z = 'D';
+
+	printf("It's as easy as %c%c%c\n",x,y,z);
+
 	return(0);
-}
+} 
 

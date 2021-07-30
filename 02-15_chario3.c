@@ -11,6 +11,7 @@ int main()
 	putchar(b);
 	c = getchar();
 	putchar(c);
+	putchar('\n');
 
 	return(0);
 }

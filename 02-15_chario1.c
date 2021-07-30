@@ -7,6 +7,9 @@ int main()
 	printf("Type a letter: ");
 	c = getchar();
 	printf("You typed '%c'.\n",c);
+	putchar(c);
+	//printf("'.\n");
+	putchar('\n');
 
 	return(0);
 }

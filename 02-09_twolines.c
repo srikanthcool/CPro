@@ -2,9 +2,7 @@
 
 int main()
 {
-    printf("This is line 1
-          This is line 2");
-
+    printf("This is line 1 \n This is line 2");
 
     return(0);
 }
