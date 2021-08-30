@@ -3,7 +3,7 @@
 
 int main()
 {
-	int ch = 'a';
+	char ch = 'A';
 
 	printf("Original %c\n",ch);
 	printf("Lowercase %c\n",tolower(ch));

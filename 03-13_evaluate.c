@@ -19,7 +19,7 @@ int main()
 	printf("Type an integer value: ");
 	scanf("%d",&i);
 	puts("\n");
-	printf("Function value %d",evaluate(i));
+	printf("\n  Function value %d",evaluate(i));
 	puts("\n");
 
 	return(0);
