@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-void blorf(void);
+void blorf(void)
+{
+	puts("The blorf() function runs when it's called");
+}
+
 
 int main()
 {
@@ -11,8 +15,4 @@ int main()
 	return(0);
 }
 
-void blorf(void)
-{
-	puts("The blorf() function runs when it's called");
-}
 
