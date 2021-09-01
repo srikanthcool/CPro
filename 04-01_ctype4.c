@@ -10,9 +10,10 @@ int main()
 		acter = getchar();
 		if(isalpha(acter))
 			putchar(acter);
-		 	Printf('\n');
+		 	
 	}
 	while( acter != '\n');
+	printf("\n");
 
 	return(0);
 }
