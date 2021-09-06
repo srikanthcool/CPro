@@ -9,8 +9,9 @@ int main()
 	len = strlen(string);
 	printf("The following string:\n");
 	puts(string);
-	printf("is %d characters long.\n",len);
+	printf(" '%s' is %d characters long.\n",string,len);
 
 	return(0);
 }
 
+ 

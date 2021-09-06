@@ -10,6 +10,13 @@ int main()
         /* set pointer p to the address of c */
         /* assign the value addressed by pointer p to 'Z' */
 
+        a = 'A';
+        p=&a;
+        b=*p;
+        p=&c;
+        *p='Z';
+
+
     printf("%c %c %c\n",a,b,c);
 
     return(0);

@@ -21,7 +21,7 @@ void shouting(char *input)
 	while(*input)
 	{
 		*input = toupper(*input);
-		input++;
+		input++; 
 	}
 }
 
